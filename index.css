@@ -1,0 +1,133 @@
+.navbar {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 40px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.banner {
+    background-color: black;
+    color: white;
+    margin-top: 45px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#porfile_picture {
+    height: 300px;
+    width: 200px;
+    filter: drop-shadow(2px 2px 2px white);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 900;
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sigueme {
+    height: 35px;
+    width: 500px;
+    color: #0e76a8;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: Verdana;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 50px 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#intro {
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 50px;
+    font-weight: 900;
+    display: block;
+
+}
+
+.tittleform {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.cualidades {
+    font-family: Verdana;
+    text-align: left;
+    border-right: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.form {
+    background-color: black;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.list {
+    background-image: url('../images/background-black-red-wallpaper-preview.jpg');
+    background-size: 100%;
+    color: white;
+    padding: 60px;
+    border-radius: 5%;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+.submit {
+    background-color: #0e76a8;
+    color: white;
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+    border-radius: 12%;
+    border-color: white;
+    margin: 10px 10px;
+    font-weight: 900;
+}
+
+.text {
+    height: 30px;
+    width: 300px;
+    margin: 10px 10px;
+}
+
+label{
+    color: white;
+    font-weight: 900;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-size: 12px;
+}
