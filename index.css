@@ -4,7 +4,9 @@
     top: 0;
     background-color: white;
     z-index: 1;
+    text-align: center;
 }
+
 
 .navbar li {
     display: inline-block;
@@ -13,6 +15,19 @@
     color: black;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 .banner {
@@ -44,13 +59,23 @@ h1 {
 }
 
 .sigueme {
-    height: 35px;
+    height: 45px;
     width: 500px;
-    color: #0e76a8;
+    color: black;
     font-size: 12px;
     font-weight: 900;
     font-family: Verdana;
     text-transform: uppercase;
+    border: black 3px solid;
+    border-radius: 15px;
+}
+
+.sigueme:hover {
+    background-color: black;
+    font-size: 15 px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 6px;
 }
 
 p {
@@ -81,9 +106,6 @@ p {
 .cualidades {
     font-family: Verdana;
     text-align: left;
-    border-right: 10px;
-    padding-right: 10px;
-    margin-right: 10px;
     margin-bottom: 100px;
 }
 
@@ -94,11 +116,13 @@ p {
 }
 
 .list {
-    background-image: url('../bryanportfolio.github.io/background-black-red-wallpaper-preview.jpg');
+    background-image: url('../images/fondo\ negro.jpg');
     background-size: 100%;
     color: white;
-    padding: 60px;
-    border-radius: 5%;
+    padding: 60px 80px;
+    margin: 30px;
+    border: 4px solid black;
+    box-sizing: border-box;
 }
 
 .form {
@@ -107,15 +131,23 @@ p {
 }
 
 .submit {
-    background-color: #0e76a8;
-    color: white;
+    background-color: white;
+    color: black;
     text-transform: uppercase;
     width: 120px;
     height: 40px;
-    border-radius: 12%;
-    border-color: white;
+    border-radius: 12px;
+    border: black 3px solid;
     margin: 10px 10px;
     font-weight: 900;
+}
+
+.submit:hover {
+    background-color: black;
+    font-size: 15 px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 6px;
 }
 
 .text {
@@ -124,10 +156,55 @@ p {
     margin: 10px 10px;
 }
 
-label{
+label {
     color: white;
     font-weight: 900;
     font-family: Verdana;
     text-transform: uppercase;
     font-size: 12px;
+}
+
+.llamada{
+    font-family: Helvetica;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align:left;
+}
+
+#footer{
+    text-align:left;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+#text{
+    text-align:left;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding: 20px 0px;
+}
+
+#social{
+    position:relative;
+    font-family: Helvetica;
+    line-height: 30px;
+}
+
+.social{
+    color: white;
+}
+
+.social:hover{
+    display: block;
+    color: gray;
+    padding: 2px 2px;
+    border-radius: 1px;
 }
