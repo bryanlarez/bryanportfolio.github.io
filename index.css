@@ -116,7 +116,7 @@ p {
 }
 
 .list {
-    background-image: url('../bryanportfolio.github.io/fondo\ negro.jpg');
+    background-image: url('./fondo\ negro.jpg');
     background-size: 100%;
     color: white;
     padding: 60px 80px;
